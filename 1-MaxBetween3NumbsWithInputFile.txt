@@ -1,0 +1,27 @@
+#include "stdio.h"
+
+int main(int argc, char **argv[]) {
+
+double a, b, c;
+a = 0, b = 0, c = 0;
+scanf("%lf %lf %lf", &a, &b, &c);
+
+double n1, n2;
+n1 = 0, n2 = c;
+
+if (a >= b) {
+     n1 = a;
+} else {
+    n1 = b;
+}
+
+if(n1 >= n2) {
+    printf("%lf", n1);
+    printf("\n");
+} else {
+    printf("%lf", n2);
+    printf("\n");
+}
+
+return 0;
+}
